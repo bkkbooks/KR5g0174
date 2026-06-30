@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5g0174/v1
+canonical_location: https://kanripo.org/bkk/KR5g0174/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 上清元始譜籙太真玉訣
+  identifiers:
+    alt_id:
+    - DZ1365
+  date: '2015-08-29 02:59:33.483517'
+  source:
+    repository: kanripo
+    path: KR5g0174
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0174_000.yaml, hash: 'sha256:70f404b2454ed4f24928821f403b5ba9f2ba0afabfe169e433a522075bbf6f2f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0174_000.markers.yaml, hash: 'sha256:349b10cb70830dfa17b49c699f5ff23f036abdfbc5086c8ee006b347b0d09226'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0174_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2581
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f562adb1637c8a3121299b37f679c475bc097fa6dfcd16e3e1eac44068c0e188
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

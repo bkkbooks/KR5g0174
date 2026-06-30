@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0174/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0174/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清元始譜籙太真玉訣
+  date: '2015-08-29 02:59:33.483517'
+  source:
+    repository: kanripo
+    path: KR5g0174
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0174_000-ZTDZ.yaml, hash: 'sha256:2631f8cb11a1c12c29a9d59f261b7257dbb49ebfe659a2334fc272e97020f5c6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0174_000-ZTDZ.markers.yaml, hash: 'sha256:78ed7c6e663c524dd66059b425725d0fe7e13f414db5468b0b8003d46dd0133a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0174_SJB_000-330805a
+    span:
+    - body
+    - 0
+    - 2581
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:5118408a74e94fcaf913ef7f71e3967df422592c120ad06987ade7b9bbf71eb3
